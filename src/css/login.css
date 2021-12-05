@@ -1,0 +1,284 @@
+.mainContainer{
+    width: 100vw;
+    height:100vh;
+    background-color:rgba(0, 0, 0, 0.31);
+    margin: 0%;
+    align-items: center;
+}
+
+
+.side-cart-card {
+    width: 624px;
+    height: 391px;
+    background: #F5F5F5;
+    border-radius: 21px;
+    opacity: 1;
+    position: absolute;
+    left: 400px;
+    top:16px;
+}
+
+.image-cart>img{
+    position: absolute;
+    width: 245px;
+    height: 245px;
+    top: 47px;
+    left: 46px;
+    opacity: 1;
+    border-radius: 300px;
+}
+
+
+
+.right-login-card {
+    /* border: 2px solid red; */
+    width: 389px;
+    height: 425px;
+    position: relative;
+    left: 700px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #00000029;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+
+
+
+.text1{
+    width:209px;
+    height:24px;
+    font-size: 16px;
+    text-transform:uppercase;
+    font-weight:500;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    top: 310px;
+    left: 63px;
+    position: relative;
+}
+
+.innerbox1{
+    /* border: 2px solid red; */
+    width: 270px;
+    height: 425px;
+    position: relative;
+    left: 55px;
+}
+
+.first-row-text{
+    top: 15px;
+    position: relative;
+    display: flex;
+    width: 270px;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #0A0102;
+    text-transform: uppercase;
+    opacity: 1;
+    font-weight:500;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    cursor:pointer;
+}
+
+
+
+
+
+
+.login-fields{
+width: 270px;
+height: 35px;
+border: 1px solid #E2E2E2;
+border-radius: 2px;
+
+
+}
+
+.box_fields_buttons{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    justify-content: space-evenly;
+    height:350px;
+    margin-top:30px ;
+  
+  
+  
+}
+
+#login{
+
+    background-color:#A03037;
+    color: white;
+    width: 270px;
+    height: 37px;  
+    cursor:pointer; 
+
+}
+
+.textbox_or{
+width: 191px;
+height: 15px;
+text-align: center;
+font-weight: 500;
+padding: 10px;
+}
+
+.socialmedia-login{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#fb{
+    width: 130px;
+    height: 37px;
+    background-color: #4266B2;
+    border-radius: 3px;
+    opacity: 1;
+    color: white;
+    border: 1px solid #4266B2;
+    cursor:pointer;
+}
+
+#google{
+    width: 130px;
+    height: 37px;
+    letter-spacing: 0px;
+    background-color: #E4E4E4;
+    color: #0A0102;
+    border: 1px solid #E4E4E4;
+    border-radius: 3px;
+    opacity: 1; 
+    cursor:pointer;
+
+}
+
+.indicator{
+
+    width:22px;
+    height:5px;
+    background-color:#A03037;
+    border-radius: 4px;
+    position:relative;
+    top: -30px;
+    left: -100px;
+    
+}
+
+.indicator-2{
+    
+    width:22px;
+    height:5px;
+    background-color:#A03037;
+    border-radius: 4px;
+    position:relative;
+    top: -30px;
+    left: 80px;
+    
+}
+
+#warningtxt{
+
+    color: red;
+    font-style: italic;
+}
+
+/* /////////////////////////////////////////////////////////////////////////Media Query */
+
+@media screen and (max-width:1920px) and (min-width:1098px)  {
+    .side-cart-card {
+        width: 377px;
+        height: 391px;
+        background: #F5F5F5;
+        border-radius: 21px;
+        opacity: 1;
+        position: absolute;
+        top: 111px;
+        left: 554px;
+    }
+
+    .right-login-card {
+        /* border: 2px solid red; */
+        width: 389px;
+        height: 425px;
+        position: relative;
+        top: 95px;
+        left: 858px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 5px 15px #00000029;
+        border: 1px solid #E4E4E4;
+        border-radius: 6px;
+        opacity: 1;
+    }
+
+}
+
+    @media screen and (max-width:475px) and (min-width:320px) {
+        
+        .side-cart-card{
+            display:none;
+
+        }
+
+        .right-login-card{
+            transform: scale(0.8);
+           
+        }
+
+
+    }
+
+
+    @media screen and (max-width:768px) and (min-width:600px) {
+
+        .side-cart-card{
+            transform: scale(0.4);
+            left:-42px;
+            width: 377px;
+            top:17px;
+
+        }
+
+
+                
+        .image-cart>img{
+            transform: scale(0.8);
+            left: 12px;
+            border-radius: 300px;
+        }
+
+
+        .right-login-card{
+            transform: scale(0.4);
+            left:58px;
+        }
+        
+
+
+                    
+            .text1{
+                width:209px;
+                height:24px;
+                font-size: 16px;
+                text-transform:uppercase;
+                font-weight:500;
+                font: normal normal medium 18px/24px Roboto;
+                left: 37px;
+            
+            }
+    
+    
+    
+        }
+
+

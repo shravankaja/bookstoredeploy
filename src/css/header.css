@@ -1,0 +1,99 @@
+.header-container{
+    width:100vw;
+    height:60px;
+    /* border:2px solid green; */
+    background-color:#A03037;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+.header-innerbox{
+    /* border:2px solid yellow; */
+    width:80%;
+    height:60px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo_title{
+/* border:2px solid yellow; */
+width:148px;
+height:60px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+cursor: pointer;
+
+}
+
+.logo{
+
+    width:31px;
+    height:24px;
+    background-image: url('../assets/education.png');
+}
+
+.title{
+color: white;
+font-size: 20px;
+}
+
+.searchbar{
+    /* border:2px solid greenyellow; */
+    width:54%;
+    height: 33px;
+    border-radius: 3px;
+    background-color: white;
+    margin-left:5% ;
+    display: flex;
+}
+
+#searchbar{
+/* border:2px solid red; */
+width:100%;
+border: none;
+outline: none;
+
+}
+
+
+.right-options{
+    height:57px;
+    width:15%;
+    margin-left: 13%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.righticon{
+
+    color: white !important;
+}
+
+.profile,.cart{
+    border:1.5px solid #8F2B2F;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    width:50%;
+    height:57px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:607px) {
+    .right-options {
+        height: 57px;
+        width: 60%;
+        margin-left: 13%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

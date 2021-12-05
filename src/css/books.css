@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+.books-container-main{
+width:100%;
+/* border:1px solid red; */
+height: auto;
+display: flex;
+justify-content: center;
+}
+
+.books-container-inner{
+    /* border:1px solid red; */
+    width:78%;
+
+}
+
+.books-titlebar{
+/* border:1px solid red; */
+width:100%;
+height: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+.sortmenu{
+width:175px !important;
+height: 30px;
+border-radius: 0.5px !important;
+color: black;
+font-size: 14px !important;
+font-weight: 600 !important;
+font-family: Roboto !important;
+}
+
+#title{
+    font: normal 600 normal 25px/33px Roboto;
+    
+}
+
+.bookcard-container{
+    /* border:1px solid red; */
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+@media screen  and  (max-width:607px){
+
+    .bookcard-container {
+     
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+.card-container{
+border-color: #e4e4e4;
+border-radius: 2px 2px 0px 0px;
+border: 1px solid #8f8e8e47;
+width:235px;
+height:275px;
+margin-bottom: 27px;
+margin-right:22px;
+}
+.card-container:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+}
+
+
+
+.image-bookcard{
+height:172px;
+width:100%;
+background-color: #F5F5F5;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.details-bookcard{
+height:102px;
+text-align: left;
+padding-left: 15px;
+
+}
+#title-card{
+font: normal normal 600 17px/2px Roboto;
+
+}
+
+#author-card{
+    font: normal normal 600 12px/8px Roboto;
+    color: #878787;
+}
+
+.ratingbox{
+
+    width:33px;
+    height: 17px;
+    background-color: #388E3C;
+    color: white;
+    font-size: 10px;
+    font-family: Roboto;
+    font-weight: 600;
+    text-align: center;
+}
+
+.count-review{
+    font: normal normal 600 12px/13px Roboto;
+    color: #878787;
+    position:relative;
+    bottom: 23px;
+    left: 36px;
+
+
+}
+
+.Price-bookcard{
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: Roboto;
+  position:relative;
+  bottom: 2px;
+  left: -21px;
+
+}
+.original-price{
+    font-size: 14px;
+    color: #878787;
+    font: normal normal 600 12px/13px Roboto;
+    text-decoration: line-through;
+    position:relative;
+    bottom: 3px;
+    right: 11px;
+
+}
+
+.bookimage{
+width:105px;
+height:135px;
+background-image: url("../assets/Image\ 36@2x.png");
+background-size: cover;
+
+}

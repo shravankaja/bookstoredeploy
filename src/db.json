@@ -1,0 +1,81 @@
+{
+    "cartitems":[{
+       
+        
+
+       
+
+       
+    }],
+    "books":[
+        { 
+        "bookname":"Alchemist",
+        "rating":4.2,
+        "Author" :"Paulo coelho",
+        "price":1800 ,
+        "discountprice":700
+
+       },{ 
+        "bookname":"Thousand suns",
+        "rating":3.9,
+        "Author" :"Khaled Hosseini",
+        "price":320 ,
+        "discountprice":300
+
+       } ,{ 
+        "bookname":"Origin",
+        "rating":4.6,
+        "Author" :"Dan Brown",
+        "price":920 ,
+        "discountprice":700
+
+       },{ 
+        "bookname":"Game of thrones",
+        "rating":3.5,
+        "Author" :"George RR martin",
+        "price":4000 ,
+        "discountprice":100
+
+       } ,{ 
+        "bookname":"Requiem",
+        "rating":4.3,
+        "Author" :"Lauren Oliver",
+        "price":2300 ,
+        "discountprice":300
+       } ,{ 
+        "bookname":"Lord of Rings",
+        "rating":4.3,
+        "Author" :"JRR Tolkein",
+        "price":1200 ,
+        "discountprice":700
+       },{ 
+        "bookname":"Broken Wing",
+        "rating":4.3,
+        "Author" :"Sarojini Naidu",
+        "price":1100 ,
+        "discountprice":900
+       } ,{ 
+        "bookname":"As you like it",
+        "rating":4.3,
+        "Author" :"William Shakespeare",
+        "price":400 ,
+        "discountprice":369
+       } ,{ 
+        "bookname":"Broken Wing",
+        "rating":4.3,
+        "Author" :"Sarojini Naidu",
+        "price":1100 ,
+        "discountprice":900
+       } 
+            
+
+
+
+       
+
+
+    ]
+
+
+    
+}

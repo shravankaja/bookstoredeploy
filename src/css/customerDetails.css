@@ -1,0 +1,129 @@
+.validation-box{
+    width:75%;
+    margin-top:16px;
+    border: 1px solid #70707063 ;
+    height:425px;
+
+  }
+
+  .customer-details-title{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border:1px solid red; */
+    margin-left:40px;
+    font-family:'roboto';
+    font-weight: 600;
+    height:60px;
+  }
+  .addnewaddress{
+    width:150px;
+    height:35px;
+    color: #A03037;
+    font-family:'roboto';
+    font-weight: normal;
+    border:1.5px solid #A03037 ;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size:12px;
+  }
+
+  .inputfields-container{
+    /* border:1px solid red; */
+    width: 60%;
+    margin-left: 45px;
+    height:307px;
+
+  }
+
+
+  .row-1-field,.row-2-field,.row-3-field,.row-4-field{
+     width:100%;   
+     /* border:2px solid green; */
+    height:62px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .fullname-1r,.mobilenum-1r,.city-3r,.state-3r{
+     width:245px;
+     margin-top: 10px;
+
+  }
+  .Address-2r{
+    width:100%;
+    border: 1px solid #70707063 ;
+
+  }
+
+  .continue-button-container{
+
+    width:95%;
+    display: flex;
+    justify-content: end;
+    /* border:1px solid red; */
+  }
+
+  .continue-button{
+    width:150px;
+    height:35px;
+    background-color: #3371B5;
+    color:white;
+    font-family: 'Roboto';
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+  }
+
+ 
+
+
+
+  @media screen and  (max-width:1200px) {
+    .Address-2r {
+      width: 100%;
+      border: 1px solid #70707063;
+      margin-top: 50px;
+  }
+  .row-3-field{
+    margin-top: 50px;
+  }
+
+  }
+
+
+
+    
+@media screen and (min-width:320px) and (max-width:600px) {
+  
+.continue-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  /* border: 1px solid red; */
+  margin-top: 40px;;
+}
+
+.validation-box {
+  width: 100%;
+  margin-top: 16px;
+  border: 1px solid #70707063;
+  height: 467px;
+}
+
+.customer-details-title{
+
+  margin-left: 24px;
+}
+
+.continue-button {
+  width: 124px;
+}
+
+}
